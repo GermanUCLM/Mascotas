@@ -12,7 +12,7 @@
 	<groupId>io.codementor.gtommee</groupId>
 	<artifactId>MascotasMongo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SIGET-1</name>
+	<name>Mascotas</name>
 	<description>Prueba para conexión con MongoDB</description>
 
 	<properties>
