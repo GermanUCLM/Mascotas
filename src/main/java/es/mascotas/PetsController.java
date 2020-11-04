@@ -31,7 +31,7 @@ public class PetsController {
   @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
   public void modifyPetById(@PathVariable("id") ObjectId id, @RequestBody Pets pets) {
     pets.set_id(id);
-    repository.save(pets);
+    repository.save(pets); 
   }
   
   @RequestMapping(value = "/", method = RequestMethod.POST)
